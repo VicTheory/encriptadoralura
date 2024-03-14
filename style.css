@@ -447,6 +447,7 @@
   align-self: stretch;
   flex-grow: 0;
   top: 430px;
+  left: 40px;
 }
 .button-wrapper2:hover{
   overflow-y: scroll;
