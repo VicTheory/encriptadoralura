@@ -15,5 +15,5 @@ El Encriptador Alura encripta unicamente textos, con un esquema simple de rempla
 // La letra "o" es convertida para "ober"
 // La letra "u" es convertida para "ufat"
 
-let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"],[" ","_"]];
+matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"],[" ","_"]];
 ```
