@@ -21,7 +21,7 @@ function actEncriptar(){
 // La letra "u" es convertida para "ufat"
 
 function encriptar(stringEncriptada){
-    let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
+    let matrizCodigo = [["e","enter"],["i","imes"],["o","ober"],["u","ufat"],["a","ai"]];
     stringEncriptada = stringEncriptada.toLowerCase();
 
     for(let i = 0; i < matrizCodigo.length; i++){
