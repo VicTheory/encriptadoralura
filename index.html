@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico"
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <title>Encriptador</title>
+</head>
+<body class="encriptador">
+    <header>
+        <img class="logo" src="img/logo.png" alt="Logo Alura"/>
+    </header>
+    <main>
+      <section>
+        <textarea class="text-wrapper-2" cols="20" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+        <article class="frame-2">
+          <button onclick="actEncriptar();" class="button"><b class="button-2">Encriptar</b></button>
+          <button onclick="actDesencriptar();" class="button-wrapper"><b class="button-3">Desencriptar</b></button>
+        </article>
+        <article class="frame-3">
+          <img class="bi-exclamation" src="img/bi_exclamation-circle-fill.png" alt="exclamation"/>
+          <h6 class="text-wrapper-3">Solo letras minúsculas y sin acentos</h6>
+        </article>
+    </section>
+    <aside>
+        <figure class="overlap-group">
+            <img class="mueco" src="img/mu-eco.png" alt="muneco"/>
+            <article class="frame">
+              <div class="text-wrapper">Ningún mensaje fue encontrado</div>
+              <textarea class="mesage" cols="20" rows="10" disabled>Ingresa el texto que desees encriptar o desencriptar.</textarea>
+            </article>
+            <footer>
+              <button class="button-wrapper2" hidden><b class="button-4">Copiar</b></button>
+            </footer>
+        </figure>
+    </aside>
+    </main>
+    <footer>
+      <p class="footer">Desarrollado por VicTheory</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
