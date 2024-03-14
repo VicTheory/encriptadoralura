@@ -21,7 +21,7 @@ function actEncriptar(){
 // La letra "u" es convertida para "ufat"
 
 function encriptar(stringEncriptada){
-    let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"],[" ","_"]];
+    let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     stringEncriptada = stringEncriptada.toLowerCase();
 
     for(let i = 0; i < matrizCodigo.length; i++){
@@ -38,7 +38,7 @@ function actDesencriptar(){
 }
 
 function desencriptar(stringDesencriptada){
-    let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"],[" ","_"]];
+    let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     stringDesencriptada = stringDesencriptada.toLowerCase();
 
     for(let i = 0; i < matrizCodigo.length; i++){
@@ -50,9 +50,12 @@ function desencriptar(stringDesencriptada){
 }
 
 actCopiar.addEventListener("click", copyText);
-function copyText(mensaje){
-    mensaje.select();
-    document.execCommand("copy");
+function copyText(){
+    const copy = document.querySelector('#toCopy');
+    copy.select();
+    copy.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copy.value);
+    //document.execCommand("copy");
     window.getSelection().removeAllRanges();
     alert("Copiado");
 };

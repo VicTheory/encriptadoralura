@@ -86,7 +86,8 @@
   width: 400px;
   height: 944px;
   top: 80px;
-  left: 0;
+  left: 32px;
+  right: inherit;
   padding: 0 1%;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
@@ -246,6 +247,7 @@
     visibility: hidden;
     box-sizing: border-box;
     width: 328px;
+    left: 32px;
     align-items: flex-start;
     gap: 8px;
     padding: 24px;
