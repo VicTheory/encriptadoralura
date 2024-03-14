@@ -449,7 +449,7 @@
   top: 430px;
   left: 40px;
 }
-.button-wrapper2:hover{
+.button .button-wrapper:hover{
   overflow-y: scroll;
 }
 .encriptador .footer{
