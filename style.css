@@ -386,21 +386,6 @@
   border-radius: 32px;
 }
 .encriptador .overlap-group .mesage:focus{
-  /*width: 343px;
-  height: 48px;
-  font-family: 'Inter' Helvetica;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 150%;
-  text-align: center;
-  color: #495057;
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-  overflow-y: hidden;
-  cursor: none;*/
   width: 279px;
   height: 432px;
   font-family: 'Inter';
